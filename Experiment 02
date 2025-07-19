@@ -1,0 +1,20 @@
+
+int main() {
+    int age = 20;
+    float gpa = 6.45;
+    char grade = 'B';
+    bool isPassed = true;
+    
+    cout << "DIFFERENT TYPES OF DATATYPES IN C++.." << endl << endl;
+    
+    cout << "Age of the student is : " << age << "\nSize of the INTEGER datatype in Bit : " << sizeof(int) << endl << endl;
+    
+    cout << "GPA of the student is : " << gpa << "\nSize of the FLOAT datatype in Bit : " << sizeof(float) << endl << endl;
+    
+    cout << "Grade of the student is : " << grade << "\nSize of CHARACTER the datatype in Bit : " << sizeof(char) << endl << endl;
+    
+    cout << "Eligibility of the student is : " << isPassed << "\nSize of the BOOLEAN datatype in Bit : " << sizeof(bool) << endl << endl;
+    cout << "Pass if Eligibility Output is 1 and Fail if 0." << endl;
+    
+    return 0;
+}
