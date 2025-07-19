@@ -1,0 +1,43 @@
+//UPDESH ARORA
+//PRN - 24070123124
+//ENTC B-3
+//EXPERIMENT 01
+
+#include<iostream>
+using namespace std;
+int main(){
+    cout << "Helloo World!!" << endl;
+    cout << "This is my First code of C++" << endl;
+    
+    cout << "BASIC CALCULATOR." << endl;
+    
+    float num1,num2,result;
+    char operation;
+    
+    cout << "Enter first number : ";
+    cin >> num1;
+    cout << "Enter second number : ";
+    cin >> num2;
+    cout << "Enter from the following operations (+, -, /, *) : ";
+    cin >> operation;
+    
+    if (operation == '+'){
+        result = num1+num2;
+    }
+    else if(operation == '-'){
+        result = num1-num2;
+    }
+    else if(operation == '/'){
+        result = num1/num2;
+    }
+    else if(operation == '*'){
+        result = num1*num2;
+    }
+    else{
+        cout << "The operation is invalid.\nKindly use from (+, -, /, *)" << endl;
+        return 0;
+    }
+    cout << "THE RESULT IS : " << result;
+    
+    return 0;
+}
