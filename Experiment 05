@@ -1,0 +1,114 @@
+/ UPDESH ARORA
+// PRN - 24070123124
+// ENTC B-3
+// EXPERIMENT 04
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    // 1) Using if-else statement to find Even and Odd number
+    int num;
+    cout << "Enter the number: ";
+    cin >> num;
+
+    if (num == 0) {
+        cout << "The number is ZERO..." << endl;
+    } else if (num % 2 == 0) {
+        cout << "The number is even" << endl;
+    } else {
+        cout << "The number is odd" << endl;
+    }
+
+    // 2) Using if-else and without logical operators, find largest of 3 numbers
+    int a, b, c, greatest;
+    cout << "\nEnter three numbers: ";
+    cin >> a >> b >> c;
+
+    if (a > b) {
+        if (a > c) {
+            greatest = a;
+        } else {
+            greatest = c;
+        }
+    } else {
+        if (b > c) {
+            greatest = b;
+        } else {
+            greatest = c;
+        }
+    }
+    cout << "The greatest number is: " << greatest << endl << endl;
+    
+    // 3) Using if-else Determine whether the given character is a vowel or a consonant
+    char ch;
+    cout << "Enter a character: ";
+    cin >> ch;
+
+    if (ch >= 'A' && ch <= 'Z')
+        ch = ch + ('a' - 'A');
+
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+        cout << ch << " is a vowel." << endl << endl;
+    else
+        cout << ch << " is a consonant." << endl << endl;
+
+    // 4) Using Switch-case write a program for calculator
+    float num1,num2;
+    char op;
+    cout << "First number is : ";
+    cin >> num1;
+    cout << "Second number is : ";
+    cin >> num2;
+    cout << "Enter valid operation : ";
+    cin >> op;
+    switch (op){
+        case '+':
+        cout << "The sum is :" << num1+num2 << endl;
+        break;
+        
+        case '-':
+        cout << "The sub is :" << num1-num2 << endl;
+        break;
+        
+        case '/':
+        cout << "The division is :" << num1/num2 << endl;
+        break;
+        
+        case '*':
+        cout << "The multipication is :" << num1*num2 << endl;
+        break;
+        
+        default:
+        cout << "The input is invalid" << endl << endl;
+    }
+    
+    // 5) Using Switch-case write a program.
+    int choice;
+    cout << "choose any one of them : ";
+    cout << "THE GYM SHOP!!" << endl;
+    cout << "1. The cloths : " << endl;
+    cout << "2. The Protine : " << endl;
+    cout << "3. The Weights : " << endl;
+    cout << "4. The suppliments : " << endl;
+    cin >> choice;
+    
+    switch (choice){
+        case 1:
+        cout << "YOU HAVE CHOOSEN CLOTHS : here are gym shoes, wrist ban, socks, tshirts, lower, etc";
+        break;
+        
+        case 2:
+        cout << "YOU HAVE CHOOSEN PROTINE : The protine is of $10, $20 and $50 of mango,orange and chocolate ";
+        break;
+        
+        case 3:
+        cout << "YOU HAVE CHOOSEN WEIGHTS : We have 2kgs, 5kgs, 10kgs, 20kgs and 30kgs of them";
+        break;
+        
+        case 4:
+        cout << "YOU HAVE CHOOSEN SUPPLIMENT : we have tren, anabol , canabol, streoids";
+        break;
+        
+    }
+}
