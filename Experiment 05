@@ -64,19 +64,19 @@ int main() {
     cin >> op;
     switch (op){
         case '+':
-        cout << "The sum is :" << num1+num2 << endl;
+        cout << "The sum is :" << num1+num2 << endl << endl;
         break;
         
         case '-':
-        cout << "The sub is :" << num1-num2 << endl;
+        cout << "The sub is :" << num1-num2 << endl << endl;
         break;
         
         case '/':
-        cout << "The division is :" << num1/num2 << endl;
+        cout << "The division is :" << num1/num2 << endl << endl;
         break;
         
         case '*':
-        cout << "The multipication is :" << num1*num2 << endl;
+        cout << "The multipication is :" << num1*num2 << endl << endl;
         break;
         
         default:
@@ -86,7 +86,7 @@ int main() {
     // 5) Using Switch-case write a program.
     int choice;
     cout << "choose any one of them : ";
-    cout << "THE GYM SHOP!!" << endl;
+    cout << "THE GYM SHOP!! CHOOSE ANY ONE TO GET MORE DETAILS ABOUT IT " << endl;
     cout << "1. The cloths : " << endl;
     cout << "2. The Protine : " << endl;
     cout << "3. The Weights : " << endl;
