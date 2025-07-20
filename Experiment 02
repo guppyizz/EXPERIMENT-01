@@ -1,25 +1,33 @@
-//UPDESH ARORA
-//PRN - 24070123124
-//ENTC B-3
-//EXPERIMENT 01
-//DIFFERENT TYPES OF DATATYPES AND THE BIT SIZE.
+// UPDESH ARORA
+// PRN - 24070123124
+// ENTC B-3
+// EXPERIMENT 01
+// DIFFERENT TYPES OF DATATYPES AND THEIR BIT SIZE
+
+#include <iostream>
+using namespace std;
 
 int main() {
     int age = 20;
     float gpa = 6.45;
     char grade = 'B';
     bool isPassed = true;
-    
-    cout << "DIFFERENT TYPES OF DATATYPES IN C++.." << endl << endl;
-    
-    cout << "Age of the student is : " << age << "\nSize of the INTEGER datatype in Bit : " << sizeof(int) << endl << endl;
-    
-    cout << "GPA of the student is : " << gpa << "\nSize of the FLOAT datatype in Bit : " << sizeof(float) << endl << endl;
-    
-    cout << "Grade of the student is : " << grade << "\nSize of CHARACTER the datatype in Bit : " << sizeof(char) << endl << endl;
-    
-    cout << "Eligibility of the student is : " << isPassed << "\nSize of the BOOLEAN datatype in Bit : " << sizeof(bool) << endl << endl;
-    cout << "Pass if Eligibility Output is 1 and Fail if 0." << endl;
-    
+
+    cout << "DIFFERENT TYPES OF DATATYPES IN C++\n" << endl;
+
+    cout << "Age of the student: " << age << endl;
+    cout << "Size of INTEGER datatype: " << sizeof(int) * 8 << " bits\n" << endl;
+
+    cout << "GPA of the student: " << gpa << endl;
+    cout << "Size of FLOAT datatype: " << sizeof(float) * 8 << " bits\n" << endl;
+
+    cout << "Grade of the student: " << grade << endl;
+    cout << "Size of CHAR datatype: " << sizeof(char) * 8 << " bits\n" << endl;
+
+    cout << "Student passed? " << isPassed << endl;
+    cout << "Size of BOOLEAN datatype: " << sizeof(bool) * 8 << " bits\n" << endl;
+
+    cout << "(Note: 1 means true, 0 means false)\n";
+
     return 0;
 }
