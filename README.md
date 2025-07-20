@@ -30,3 +30,22 @@ It also uses the `sizeof()` operator to determine the size (in bits) of each dat
 - Introduction to data types in C++
 - Usage of `sizeof()` to find memory size
 - Boolean interpretation (1 = true, 0 = false)
+
+## Experiment 03 – Arithmetic, Relational & Logical Operations in C++
+
+This C++ program demonstrates the use of:
+- Arithmetic operations: addition, subtraction, multiplication, division
+- Relational operations: checking if one number is greater than the other
+- Logical operations: AND (`&&`), OR (`||`)
+
+It prompts the user to input two numbers and then shows:
+- Results of basic math operations
+- Boolean evaluations of logical expressions
+
+### Key Concepts:
+- Use of arithmetic (`+`, `-`, `*`, `/`)
+- Relational operator: `>`
+- Logical operators: `&&`, `||`
+- Boolean outputs: `1 = true`, `0 = false`
+
+This experiment helps understand how expressions are evaluated and how conditional logic works in C++.
