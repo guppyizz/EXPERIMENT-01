@@ -1,10 +1,15 @@
-C++ EXPERIMENTS
+# 💻 C++ EXPERIMENTS
 
-UPDESH ARORA
+A curated collection of C++ programs for practice and learning, written with simplicity and clarity.
 
-PRN - 24070123124
+---
 
-ENTC B-3
+## 👨‍🎓 Student Information
+
+- **Name**: Updesh Arora  
+- **PRN**: 24070123124  
+- **Branch**: ENTC  
+- **Class**: B-3
 
 
 ## Experiment 01 – Hello World & Basic Calculator in C++
